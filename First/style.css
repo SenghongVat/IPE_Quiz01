@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+*{
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Koulen',cursive;
+  color: white;
+  --Text-color:rgb(255,0,200);
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  width: 300px;
+}
+fieldset{
+  width: 300px;
+  padding: .5rem;
+}
+fieldset legend {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--Text-color);
+  text-shadow:0 0 10px var(--Text-color);
+}
+fieldset input{
+  width: 100%;
+}
+fieldset label{
+  color: var(--Text-color);
+  text-shadow:0 0 10px var(--Text-color);
+}
+fieldset input[type="email"],input[type="password"]{
+  border: none;
+  outline: none;
+  border-bottom: 2px solid;
+  background:transparent;
+
+}
